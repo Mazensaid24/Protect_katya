@@ -1,0 +1,26 @@
+{
+	"name": "protect",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/af778e71176ac74a8fd00.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Mazensaid24/Protect_katya",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
